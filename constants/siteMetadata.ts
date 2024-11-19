@@ -22,5 +22,8 @@ export const DEFAULT_SEO = {
       lastName: 'Revanur',
       username: 'AnirudhRevanur',
     },
+    poweredBy: {
+      githubLink: 'https://github.com/qlawmarq/next-markdown-blog-YoRHa',
+    },
   },
 }

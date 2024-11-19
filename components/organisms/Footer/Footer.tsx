@@ -10,9 +10,7 @@ const Footer: React.FC = () => {
     <footer css={FooterStyle}>
       <Border />
       <Container>
-        <Span className="footer-text">{`Copyright © ${new Date().getFullYear()} ${
-          DEFAULT_SEO.openGraph.profile.firstName + ' ' + DEFAULT_SEO.openGraph.profile.lastName
-        }. All Rights Reserved.`}</Span>
+        <Span className="footer-text">{`Powered by ${DEFAULT_SEO.openGraph.poweredBy.githubLink}. All Rights Reserved.`}</Span>
       </Container>
     </footer>
   )
