@@ -1,14 +1,14 @@
 export const DEFAULT_SEO = {
-  titleTemplate: '%s | NieR:Automata YoRHa Next.js Blog',
-  defaultTitle: 'NieR:Automata YoRHa Next.js Blog',
-  description: 'Blog template with Next.js.',
+  titleTemplate: "%s | Anirudh Revanur's Blog",
+  defaultTitle: "Anirudh Revanur's Blog",
+  description: "Anirudh Revanur's Blog",
   canonical: 'https://next-playground.vercel.app/',
   openGraph: {
     type: 'website',
     url: 'https://next-playground.vercel.app/',
-    title: 'NieR:Automata YoRHa Next.js Blog',
-    description: 'Blog template with Next.js.',
-    site_name: 'NieR:Automata YoRHa Next.js Blog',
+    title: "Anirudh Revanur's Blog",
+    description: "Anirudh Revanur's Blog",
+    site_name: "Anirudh Revanur's Blog",
     images: [
       {
         url: 'https://next-playground.vercel.app/static/images/logo.png',
@@ -18,13 +18,9 @@ export const DEFAULT_SEO = {
       },
     ],
     profile: {
-      firstName: 'Masaki',
-      lastName: 'Yoshiiwa',
-      username: 'qlawmarq',
+      firstName: 'Anirudh',
+      lastName: 'Revanur',
+      username: 'AnirudhRevanur',
     },
-  },
-  twitter: {
-    handle: '@qlawmarq',
-    cardType: 'summary',
   },
 }
