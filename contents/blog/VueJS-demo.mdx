@@ -128,7 +128,7 @@ We'll add a "v-model" tag to out input that calls a function that creates a new 
 ```
 <template>
   <div id="app">
-    <input @keyup.enter="addTask" placeholder="Enter your task here:"/>
+    <input @keyup.enter="addTask" v-model="newTask" placeholder="Enter your task here:"/>
   </div>
 </template>
 ```
