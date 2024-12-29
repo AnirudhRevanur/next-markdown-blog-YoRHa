@@ -7,9 +7,9 @@ export const theme = {
     backgroundColor: '#d1cdb7',
   },
   fontSizes: {
-    S: '0.85rem',
-    M: '1.2rem',
-    L: '1.65rem',
+    S: '0.8rem',
+    M: '1.1rem',
+    L: '1.6rem',
     XL: '2rem',
   },
 }
